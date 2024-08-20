@@ -17,6 +17,7 @@ public class JwtUtil {
     private long expirationMs;
 
     public String generateToken(String username) {
+        System.out.println(new Date(System.currentTimeMillis() + expirationMs));
         return Jwts.builder()
                 .setSubject(username)
                 .setIssuedAt(new Date())
@@ -37,7 +38,8 @@ public class JwtUtil {
     }
 
     public boolean isTokenExpired(String token) {
-        return extractClaims(token).getExpiration().before(new Date());
+        Date hi = (extractClaims(token).getExpiration());
+        return hi.before(new Date());
     }
 
     public boolean validateToken(String token, String username) {

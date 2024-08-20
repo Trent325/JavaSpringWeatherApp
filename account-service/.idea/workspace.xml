@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893b44a5-4544-45e8-99c4-148f22d29fbd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/config/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/config/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/com/adp/admin_service/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
@@ -14,21 +21,22 @@
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/model/Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/classes/com.adp.account_service.AccountServiceApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/classes/com.adp.account_service.AccountServiceApplicationTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/packages/com.adp.account_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/packages/com.adp.account_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/TEST-com.adp.account_service.AccountServiceApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/TEST-com.adp.account_service.AccountServiceApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfig.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/model/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +52,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/account-service">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -76,16 +87,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.account-service [:com.adp.account_service.AccountServiceApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/trgre/Desktop/ADP_Two/account-service&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.account-service [:com.adp.account_service.AccountServiceApplication.main()].executor": "Run",
+    "Gradle.account-service [bootRun].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/trgre/Desktop/ADP_Two/account-service"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Gradle.account-service [bootRun]">
     <configuration name="AccountServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.adp.account_service.AccountServiceApplication" />
       <module name="account-service.main" />
@@ -99,6 +111,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="account-service [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/account-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AccountServiceApplication" />
+      <item itemvalue="Gradle.account-service [bootRun]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AccountServiceApplication" />

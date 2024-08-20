@@ -13,6 +13,7 @@ public class Account {
 
     private String username;
     private String password;
+    private Boolean isAdmin;
 
     public Account() {}
 
@@ -20,6 +21,7 @@ public class Account {
     public Account(String username, String password) {
         this.username = username;
         this.password = password;
+        this.isAdmin = false;
     }
 
     // Getters
@@ -46,5 +48,13 @@ public class Account {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Boolean getAdmin() {
+        return isAdmin;
+    }
+
+    public void setAdmin(Boolean admin) {
+        isAdmin = admin;
     }
 }
