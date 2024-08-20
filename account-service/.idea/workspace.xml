@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893b44a5-4544-45e8-99c4-148f22d29fbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
@@ -16,8 +15,7 @@
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/classes/com.adp.account_service.AccountServiceApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/classes/com.adp.account_service.AccountServiceApplicationTests.html" afterDir="false" />
@@ -29,9 +27,9 @@
       <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,23 +68,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ktVf7ln3ejjRRnx8lmp1nIn62G" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.account-service [:com.adp.account_service.AccountServiceApplication.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/trgre/Desktop/ADP_Two/account-service"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.account-service [:com.adp.account_service.AccountServiceApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trgre/Desktop/ADP_Two/account-service&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AccountServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.adp.account_service.AccountServiceApplication" />
