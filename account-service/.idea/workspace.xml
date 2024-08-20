@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893b44a5-4544-45e8-99c4-148f22d29fbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/config/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/classes/java/main/com/adp/account_service/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/libs/account-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/classes/com.adp.account_service.AccountServiceApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/classes/com.adp.account_service.AccountServiceApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/reports/tests/test/packages/com.adp.account_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/reports/tests/test/packages/com.adp.account_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/TEST-com.adp.account_service.AccountServiceApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/TEST-com.adp.account_service.AccountServiceApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/adp/account_service/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
