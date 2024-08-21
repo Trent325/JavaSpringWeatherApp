@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 
 @Component
 public class JwtUtil {
@@ -16,9 +19,12 @@ public class JwtUtil {
     @Value("${jwt.expiration}")
     private long expirationMs;
 
-    public String generateToken(String username) {
-        System.out.println(new Date(System.currentTimeMillis() + expirationMs));
+    public String generateToken(String username, List<String> roles) {
+        Map<String, Object> claims = new HashMap<>();
+        claims.put("roles", roles);
+
         return Jwts.builder()
+                .setClaims(claims)
                 .setSubject(username)
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + expirationMs))

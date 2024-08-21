@@ -1,5 +1,6 @@
 package com.adp.admin_service.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,17 +12,19 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
     private String username;
     private String password;
-    private Boolean isAdmin;
+//    @JsonProperty("isAdmin")
+    private boolean is_admin;
 
     public Account() {}
 
     // Constructor with fields
-    public Account(String username, String password) {
+    public Account(String username, String password, Boolean is_admin) {
         this.username = username;
         this.password = password;
-        this.isAdmin = false;
+        this.is_admin = is_admin;
     }
 
     // Getters
@@ -51,10 +54,15 @@ public class Account {
     }
 
     public Boolean getAdmin() {
-        return isAdmin;
+        return this.is_admin;
     }
 
-    public void setAdmin(Boolean admin) {
-        isAdmin = admin;
+    public void setAdmin(boolean admin) {
+        this.is_admin = admin;
+    }
+
+    @Override
+    public String toString(){
+        return "" + this.username + " " + this.password + " "+this.is_admin;
     }
 }

@@ -16,6 +16,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 public class JwtAuthFilter extends OncePerRequestFilter {
 
@@ -36,14 +37,21 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     protected void doFilterInternal(jakarta.servlet.http.HttpServletRequest request, jakarta.servlet.http.HttpServletResponse response, jakarta.servlet.FilterChain filterChain) throws jakarta.servlet.ServletException, IOException {
         String header = request.getHeader("Authorization");
 
+        System.out.println(header);
+
         if (header != null && header.startsWith("Bearer ")) {
             String token = header.substring(7);
             String username = jwtUtil.extractUsername(token);
             System.out.println(token);
+            System.out.println(username);
+            List<String> roles = jwtUtil.extractRoles(token);
+            System.out.println(roles);
             if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
                 UserDetails userDetails = userDetailsService.loadUserByUsername(username);
 
                 if (jwtUtil.validateToken(token, userDetails.getUsername())) {
+
+                    System.out.println("USER DETAILS" + userDetails.getAuthorities());
                     UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
                             userDetails, null, userDetails.getAuthorities());
 
