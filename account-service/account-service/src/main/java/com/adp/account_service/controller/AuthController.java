@@ -42,7 +42,9 @@ public class AuthController {
     }
 
     @PostMapping("/login")
+    @CrossOrigin(origins = "http://localhost:5173")
     public ResponseEntity<?> login(@RequestParam String username, @RequestParam String password) {
+        System.out.println("Request Receieved");
         System.out.println("Login request received for username: " + username + password);
         try {
             Account user = userService.authenticateUser(username, password);
