@@ -6,11 +6,12 @@ export const useAllUsers = () => {
   return useQuery(
     'allUsers',
     async () => {
-      const response = await fetch('http://localhost:3000/api/admin/users', {
+      console.log(token)
+      const response = await fetch('http://localhost:8080/api/admin/users', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${token}`, // Include token in the header
+          'Authorization': `${token}`, // Include token in the header
         },
       });
 

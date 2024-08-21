@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
@@ -57,6 +59,18 @@ public class AdminController {
             return ResponseEntity.ok("lets go");
         } else {
             return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
+        }
+    }
+
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @GetMapping("/users")
+    @CrossOrigin(origins = "http://localhost:5173")
+    public ResponseEntity<List<Account>> getAllUsers() {
+        try {
+            List<Account> users = userService.getAllUsers();
+            return ResponseEntity.ok(users); // HTTP 200 OK
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build(); // HTTP 500 Internal Server Error
         }
     }
 }

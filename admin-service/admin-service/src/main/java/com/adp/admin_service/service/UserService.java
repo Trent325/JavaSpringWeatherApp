@@ -70,4 +70,8 @@ public class UserService implements UserDetailsService {
     public Account findUserByUsername(String username) {
         return userRepository.findByUsername(username);
     }
+
+    public List<Account> getAllUsers() {
+        return userRepository.findAll(); // Assumes userRepository extends JpaRepository<Account, Long>
+    }
 }
